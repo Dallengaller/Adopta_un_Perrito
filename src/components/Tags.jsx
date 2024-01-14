@@ -1,13 +1,14 @@
-/* src/components/Tags.jsx */
-import React from 'react';
-import Button from 'react-bootstrap/Button';
+// /* src/components/Tags.jsx */
 
-const Tags = ({ colorButton, textButton }) => {
-    return (
-        <>
-            <Button variant={colorButton}>{textButton}</Button>
-        </>
-    );
+import React from 'react';
+import Badge from 'react-bootstrap/Badge';
+
+const Tags = ({ text, variant }) => {
+  return (
+    <Badge bg={variant}>
+      {text}
+    </Badge>
+  );
 };
 
 export default Tags;
