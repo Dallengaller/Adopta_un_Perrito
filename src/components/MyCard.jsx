@@ -1,7 +1,7 @@
 /* src/components/MyCard.jsx */
-import React from 'react'; // Asegúrate de importar React
+import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Boton from './Boton';
+import Tags from './Tags';
 
 const MyCard = ({ image, title, colorButton, textButton, description }) => {
     return (
@@ -11,7 +11,7 @@ const MyCard = ({ image, title, colorButton, textButton, description }) => {
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <p>{description}</p> {/* Agregada la etiqueta <p> para el texto */}
-                    <Boton colorButton={colorButton} textButton={textButton} />
+                    <Tags colorButton={colorButton} textButton={textButton} />
                 </Card.Body>
             </Card>
         </>

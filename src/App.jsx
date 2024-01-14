@@ -1,5 +1,5 @@
 /* App.jsx */
-import React from 'react'; // Asegúrate de importar React
+import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyCard from './components/MyCard';
