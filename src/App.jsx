@@ -23,7 +23,7 @@ function App() {
           image="https://placedog.net/500/310"
           title="Messi"
           colorButton="primary"
-          textButton="Alimentar"
+          textButton="Lo quiero"
           description="Es juguetón, amigable y se lleva bien con niños y otros animales. ¡Haz de Messi parte de tu familia hoy mismo!"
         />
 
@@ -31,7 +31,7 @@ function App() {
           image="https://placedog.net/500/350"
           title="Gohan"
           colorButton="danger"
-          textButton="Alimentar"
+          textButton="Me gusta"
           description="Un perro de tamaño mediano con un corazón gigante. Hazte amigo de Gohan y experimenta un amor incondicional."
         />
 
@@ -39,7 +39,7 @@ function App() {
           image="https://placedog.net/500/327"
           title="Princesa"
           colorButton="warning"
-          textButton="Alimentar"
+          textButton="Voy por ella"
           description="Es una compañera leal y cariñosa que adora los mimos y los abrazos. ¡Ayuda a Princesa a encontrar su final feliz!."
         />
       </div>
